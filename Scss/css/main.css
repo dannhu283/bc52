@@ -1,0 +1,140 @@
+.bg-key {
+  background-color: #007bff;
+}
+
+.btn-key {
+  background-color: #007bff;
+}
+
+.text-key {
+  color: #007bff;
+}
+
+.bg-key {
+  background-color: #6c757d;
+}
+
+.btn-key {
+  background-color: #6c757d;
+}
+
+.text-key {
+  color: #6c757d;
+}
+
+.bg-key {
+  background-color: #28a745;
+}
+
+.btn-key {
+  background-color: #28a745;
+}
+
+.text-key {
+  color: #28a745;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: #656774;
+}
+
+.btnPhone, .btnPhone-white, .btnPhone-blue {
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  letter-spacing: 0.03rem;
+  padding: 15px 20px;
+}
+
+.btnPhone-blue {
+  background-color: #2a73dd;
+  color: #fff;
+  border: none;
+}
+
+.btnPhone-white {
+  background-color: transparent;
+  color: #2a73dd;
+  border: 2px solid #2a73dd;
+}
+
+#header {
+  background-color: #f5f9fe;
+  box-shadow: 0 2px 4px #e2ebfc;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+#header .navbar-brand {
+  color: #2a73dd;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+#header .nav-item .nav-link {
+  color: #1d365e;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 25px;
+}
+#header .nav-item .nav-link::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #2a73dd;
+  transform: scaleX(0);
+  transition: 0.2s;
+}
+#header .nav-item .nav-link:hover::after {
+  transform: scaleX(1);
+}
+#header .nav-item.active .nav-link {
+  color: #2a73dd;
+}
+#header .nav-item.active .nav-link::after {
+  transform: scaleX(1);
+}
+
+.background-cover, .cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.cover {
+  background-image: url(../../img/product-header-bg.jpg);
+  padding: 100px 0;
+}
+@media screen and (min-width: 768px) {
+  .cover {
+    padding: 150px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cover {
+    padding: 225px 0;
+  }
+}
+.cover .cover__title {
+  color: #2a73dd;
+  font-size: 70px;
+  font-weight: fw-3;
+}
+.cover .cover__subtitle {
+  color: #1d365e;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.cover .cover__description {
+  color: #656774;
+  font-size: 1.1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */
